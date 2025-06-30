@@ -1,0 +1,222 @@
+:root {
+  --Woodsmoke-950: #1b1b1d;
+  --light-black: #585858;
+}
+
+.hiredude-text-black {
+  color: black;
+}
+
+.hiredude-text-white {
+  color: white;
+}
+
+.hiredude-text-pink {
+  color: #800080;
+}
+
+.hiredude-text-light-pink {
+  color: var(--800080, rgba(128, 0, 128, 0.87));
+}
+
+.hiredude-bg-light-pink {
+  background: rgba(128, 0, 128, 0.87);
+}
+
+.hiredude-wood-smoke-950 {
+  color: var(--Woodsmoke-950);
+}
+
+.hiredude-text-light-black {
+  color: var(--light-black);
+}
+
+.hiredude-f-55 {
+  font-size: 55px;
+}
+
+.hiredude-f-34 {
+  font-size: 34px;
+}
+
+.hiredude-td-lt {
+  text-decoration: line-through;
+}
+
+.hiredude-f-20 {
+  font-size: 20px;
+}
+
+.hiredude-f-48 {
+  font-size: 48px;
+}
+
+.hiredude-f-18 {
+  font-size: 18px;
+}
+
+.hiredude-f-16 {
+  font-size: 16px;
+}
+
+.hiredude-fw-400 {
+  font-weight: 400;
+}
+
+.hiredude-fw-500 {
+  font-weight: 500;
+}
+
+.hiredude-fw-600 {
+  font-weight: 600;
+}
+
+.hiredude-fw-700 {
+  font-weight: 700;
+}
+
+.hiredude-fw-800 {
+  font-weight: 800;
+}
+
+.hiredude-fw-900 {
+  font-weight: 900;
+}
+
+.hiredude-va-mid {
+  vertical-align: middle;
+}
+
+.hiredude-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 64px 64px;
+}
+
+.hiredude-text-center {
+  text-align: center;
+}
+
+.hiredude-f-45 {
+  font-size: 45px;
+}
+
+@media (width>1280px) {
+  .hiredude-section {
+    max-width: 100%;
+  }
+}
+
+@media (width<1280px) {
+  .hiredude-section {
+    padding: 64px 64px;
+  }
+
+  .hiredude-f-55 {
+    font-size: 50px;
+  }
+}
+
+@media (width<1180px) {
+  .hiredude-f-55 {
+    font-size: 42px;
+  }
+}
+
+@media (width<980px) {
+  .hiredude-section {
+    padding: 64px 32px;
+  }
+
+  .hiredude-f-55 {
+    font-size: 45px;
+  }
+}
+
+@media (width<780px) {
+  .hiredude-section {
+    padding: 64px 32px;
+  }
+
+  .hiredude-f-16 {
+    font-size: 15px;
+  }
+
+  .hiredude-f-18 {
+    font-size: 15px;
+  }
+
+  .hiredude-f-48 {
+    font-size: 38px;
+  }
+
+  .hiredude-f-45 {
+    font-size: 40px;
+  }
+}
+
+@media (width<580px) {
+  .hiredude-f-34 {
+    font-size: 31px;
+  }
+
+  .hiredude-f-45 {
+    font-size: 35px;
+  }
+
+  .hiredude-f-20 {
+    font-size: 18px;
+  }
+}
+
+@media (width<480px) {
+  .hiredude-f-20 {
+    font-size: 16px;
+  }
+
+  .hiredude-section {
+    padding: 48px 16px;
+  }
+
+  .hiredude-f-45 {
+    font-size: 30px;
+  }
+
+  .hiredude-f-55 {
+    font-size: 35px;
+  }
+
+  .hiredude-f-48 {
+    font-size: 30px;
+  }
+
+  .hiredude-f-16 {
+    font-size: 14px;
+  }
+
+  .hiredude-f-18 {
+    font-size: 12px;
+  }
+
+  .hiredude-f-34 {
+    font-size: 28px;
+  }
+}
+
+@media (width<1280px) {
+}
+
+@media (width<1080px) {
+}
+
+@media (width<780px) {
+}
+
+@media (width<580px) {
+}
+
+@media (width<480px) {
+}
+
+@media (width<360px) {
+}

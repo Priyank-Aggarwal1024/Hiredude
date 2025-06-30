@@ -1,0 +1,209 @@
+.hiredude-main-outer {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  overflow-y: auto;
+  padding-bottom: 36px;
+  scroll-behavior: smooth;
+}
+.hiredude-main-outer::-webkit-scrollbar {
+  height: 10px;
+}
+
+.hiredude-main-outer::-webkit-scrollbar-track {
+  background: rgba(231, 231, 231, 0.79);
+  border-radius: 27px;
+}
+
+.hiredude-main-outer::-webkit-scrollbar-thumb {
+  background: #992e9d;
+  border-radius: 27px;
+}
+.hiredude-best {
+  width: 100%;
+  padding-top: 62px;
+  max-width: 1228px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  align-items: center;
+  min-width: 636px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.hiredude-bm-top {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 369fr repeat(4, 207fr);
+  min-height: 132px;
+  gap: 7px;
+}
+
+.hiredude-bm-top-hiredude {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  border-radius: 16px;
+  border: 1px solid #fff;
+  background: #800080;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.09);
+  height: 100%;
+}
+.hiredude-bm-top-hiredude-light {
+  width: 100%;
+  height: 100%;
+  color: #87278a;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 113%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  border: 1px solid rgba(140, 0, 140, 0.26);
+  background: #fff8ff;
+  padding: 12px;
+}
+.hiredude-bm-bottom {
+  display: flex;
+  padding: 20px 22px;
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  background: #fff8ff;
+}
+.hiredude-bm-bottom {
+  display: grid;
+  grid-template-columns: 342fr repeat(4, 211fr);
+  grid-template-rows: 1fr;
+  width: 100%;
+}
+.hiredude-bm-bottom-left {
+  display: grid;
+  grid-template-rows: repeat(5, 106px);
+  width: 100%;
+}
+.hiredude-bm-bottom-pink {
+  border-radius: 14px 0px 0px 14px;
+  border-top: 1px solid #e99fe9;
+  border-bottom: 1px solid #e99fe9;
+  border-left: 1px solid #e99fe9;
+  background: rgba(153, 46, 157, 0.83);
+  display: grid;
+  grid-template-rows: repeat(5, 106px);
+  width: 100%;
+}
+.hiredude-bm-bottom-lightpink {
+  border-radius: 14px 0px 0px 14px;
+  border-top: 1px solid #e99fe9;
+  border-bottom: 1px solid #e99fe9;
+  border-left: 1px solid #e99fe9;
+  background: #fff;
+  display: grid;
+  grid-template-rows: repeat(5, 106px);
+  width: 100%;
+}
+.hiredude-bm-bottom-pink > div,
+.hiredude-bm-bottom-lightpink > div,
+.hiredude-bm-bottom-left > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  text-align: center;
+}
+.hiredude-bm-bottom-left > div {
+  border-bottom: 1px solid rgba(140, 0, 140, 0.31);
+}
+.hiredude-bm-bottom-pink > div,
+.hiredude-bm-bottom-lightpink > div {
+  border-bottom: 1px solid #e99fe9;
+}
+.hiredude-bm-bottom-left > div {
+  color: #333;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+.hiredude-bm-bottom-pink > div {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+.hiredude-bm-bottom-lightpink > div {
+  color: #333;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+@media (width<1024px) {
+  .hiredude-bm-top-hiredude,
+  .hiredude-bm-top-hiredude-light {
+    font-size: 19px;
+    padding: 8px;
+  }
+  .hiredude-bm-top {
+    min-height: 110px;
+    gap: 4px;
+  }
+  .hiredude-bm-bottom {
+    padding: 16px;
+  }
+  .hiredude-bm-bottom-pink > div,
+  .hiredude-bm-bottom-lightpink > div {
+    font-size: 18px;
+  }
+  .hiredude-bm-bottom-left > div {
+    font-size: 21px;
+  }
+}
+@media (width<780px) {
+  .hiredude-best {
+    gap: 9px;
+  }
+  .hiredude-bm-top-hiredude,
+  .hiredude-bm-top-hiredude-light {
+    font-size: 14px;
+  }
+  .hiredude-bm-top {
+    min-height: 70px;
+  }
+  .hiredude-bm-bottom-pink > div,
+  .hiredude-bm-bottom-lightpink > div {
+    font-size: 16px;
+  }
+  .hiredude-bm-bottom-pink > div > img,
+  .hiredude-bm-bottom-lightpink > div > img {
+    width: 33.184px;
+    height: 33.264px;
+  }
+  .hiredude-bm-bottom-left > div {
+    font-size: 18px;
+  }
+  .hiredude-bm-bottom-lightpink,
+  .hiredude-bm-bottom-pink,
+  .hiredude-bm-bottom-left {
+    grid-template-rows: repeat(5, 90px);
+  }
+}
+
+@media (width<580px) {
+}

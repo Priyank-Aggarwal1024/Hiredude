@@ -1,0 +1,103 @@
+.tech-geek-main {
+  max-width: 100%;
+  width: 100%;
+}
+.hiredude-function {
+  padding: 36px 96px;
+  background: #fff8ff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hiredude-function-cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  max-width: 1118px;
+  justify-content: space-between;
+  gap: 20px;
+}
+.hiredude-function-card {
+  display: flex;
+  align-items: start;
+  gap: 14px;
+}
+.hiredude-fcr-heading {
+  color: #263238;
+  font-family: Poppins;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0.8; /
+}
+.hiredude-fcr-value{
+  color: rgba(38, 50, 56, 0.70);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.3;
+}
+@media (width<1280px) {
+  .hiredude-function{
+    padding: 36px 64px;
+  }
+  .hiredude-fcr-heading{
+    font-size: 34px;
+  }
+  .hiredude-fcr-value{
+    font-size: 17px;
+  }
+}
+@media (width<1080px) {
+   .hiredude-fcr-heading{
+    font-size: 30px;
+  }
+  .hiredude-fcr-value{
+    font-size: 15px;
+  }
+}
+
+@media (width<780px) {
+  .hiredude-function{
+    padding: 30px 32px;
+  }
+  .hiredude-fcr-heading{
+    font-size: 26px;
+  }
+  .hiredude-fcr-value{
+    font-size:  13px;
+  }
+  .hiredude-fc-left>img{
+    width: 40px;
+    height: 40px;
+  }
+  .hiredude-function-cards{
+    flex-wrap: wrap;
+    gap: 26px;
+    width: 100%;
+  }
+ .hiredude-function-card {
+  width: calc(50% - 13px);  
+}
+}
+
+@media (width<580px) {
+}
+
+@media (width<480px) {
+  .hiredude-fcr-heading{
+   font-size: 22px;
+ }
+ .hiredude-fcr-value{
+   font-size: 11px;
+ }
+   .hiredude-fc-left>img{
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (width<360px) {
+}

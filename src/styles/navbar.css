@@ -1,0 +1,145 @@
+.hiredude-navbar {
+  /* max-width: 1440px; */
+  margin: 0 auto;
+  height: 80px;
+  flex-shrink: 0;
+  padding: 8px 16px 9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px 7.8px rgba(187, 187, 187, 0.3);
+}
+
+.hiredude-logo-small {
+  display: none;
+}
+
+.hiredude-nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.hiredude-nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding-right: 100px;
+}
+
+.hiredude-nav-left {
+  padding-left: 100px;
+}
+
+.hiredude-nav-login-btn {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.5%;
+  /* 19.76px */
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #800080 3.92%, #b466c1 52.78%, #800080 92.42%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  padding: 14px 39px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 7.998px;
+  border: 1px solid var(--Linear, #800080);
+  box-shadow: 0px 4.279px 9.521px 0px rgba(0, 0, 0, 0.25);
+}
+
+.hiredude-nav-signup-btn {
+  display: flex;
+  padding: 14px 41px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 7.998px;
+  background: var(--800080, rgba(128, 0, 128, 0.87));
+  box-shadow: 0px 4.279px 9.521px 0px rgba(0, 0, 0, 0.25);
+  color: var(--Color-2, #fff);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.5%;
+}
+.hiredude-nav-btn-small {
+  display: none;
+}
+@media (width<1180px) {
+  .hiredude-nav-btn {
+    padding-right: 32px;
+  }
+
+  .hiredude-nav-left {
+    padding-left: 32px;
+  }
+}
+
+@media (width<980px) {
+  .hiredude-nav-btn {
+    padding-right: 16px;
+  }
+
+  .hiredude-nav-left {
+    padding-left: 16px;
+  }
+
+  .hiredude-nav-list {
+    display: none;
+  }
+}
+
+@media (width<780px) {
+  .hiredude-nav-btn {
+    padding: 0;
+  }
+
+  .hiredude-nav-left {
+    padding-left: 0px;
+  }
+
+  .hiredude-nav-login-btn {
+    font-size: 12px;
+    padding: 8.5px 27px;
+  }
+
+  .hiredude-nav-signup-btn {
+    font-size: 12px;
+    padding: 8.5px 20px;
+  }
+
+  .hiredude-navbar {
+    height: 72px;
+  }
+
+  .hiredude-logo-large {
+    display: none;
+  }
+
+  .hiredude-logo-small {
+    display: inline;
+  }
+  .hiredude-nav-btn-small {
+    display: flex;
+  }
+  .hiredude-nav-btn-large {
+    display: none;
+  }
+}
+
+@media (width<355px) {
+  .hiredude-nav-login-btn,
+  .hiredude-nav-signup-btn {
+    padding: 8.5px 12px;
+  }
+}
