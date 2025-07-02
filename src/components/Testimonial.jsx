@@ -36,17 +36,14 @@ function Testimonial() {
               1024: {
                 slidesPerView: 3,
                 spaceBetween: 24,
-                centeredSlides: false,
               },
               668: {
                 slidesPerView: 2,
                 spaceBetween: 18,
-                centeredSlides: false,
               },
               0: {
                 slidesPerView: 1,
                 spaceBetween: 12,
-                centeredSlides: true,
               },
             }}
             style={{ height: "100%" }}
