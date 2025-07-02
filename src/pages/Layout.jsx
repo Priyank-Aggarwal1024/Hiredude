@@ -8,7 +8,24 @@ import hficon2 from "../assets/hf-icon2.svg";
 import hficon3 from "../assets/hf-icon3.svg";
 import hficon4 from "../assets/hf-icon4.svg";
 import WhyHiredude from "../components/WhyHiredude";
+import Testimonial from "../components/Testimonial";
+import Faq from "../components/Faq";
+import Hiring from "../components/Hiring";
+import whatsapp from "../assets/whatsapp.png";
+import { useEffect, useState } from "react";
 function Layout() {
+  const [floater, setFloater] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setFloater(window.scrollY > 100);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up on unmount
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
     <div className="tech-geek-main">
       <Navbar />
@@ -56,6 +73,23 @@ function Layout() {
       <WhyHiredude />
       <TutedudeLearn />
       <Best />
+      <Testimonial />
+      <Faq />
+      <Hiring />
+      {floater && (
+        <div className="hiredude-bottom-floater">
+          <div className="hiredude-bottom-floater-top">
+            <div className="hiredude-bft-hirefree"> Hire Talent for FREE</div>
+            <div className="hiredude-bft-whatsappnow">
+              <img src={whatsapp} alt="Whatsapp" />
+              <span>Whatsapp now</span>
+            </div>
+          </div>
+          <div className="hero-left-paid">
+            <span className="hero-text-green">Paid </span> from 15th July
+          </div>
+        </div>
+      )}
     </div>
   );
 }

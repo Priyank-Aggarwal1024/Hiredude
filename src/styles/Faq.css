@@ -1,0 +1,85 @@
+.hiredude-faq-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 938px;
+  gap: 20px;
+  padding-top: 49px;
+  margin: 0 auto;
+}
+.hiredude-faq-card {
+  width: 100%;
+  display: flex;
+  padding: 20px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 4px 11px 0px rgba(130, 128, 128, 0.25);
+}
+.hiredude-faq-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+  gap: 14px;
+}
+.hiredude-faq-question {
+  color: #263238;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+}
+.hiredude-faq-answer {
+  color: #263238;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  opacity: 0.7;
+}
+.hiredude-faq-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.hiredude-faq-icon > svg {
+  width: 100%;
+  height: 100%;
+}
+@media (width < 780px) {
+  .hiredude-faq-main {
+    padding-top: 36px;
+    gap: 16px;
+  }
+  .hiredude-faq-card {
+    padding: 16px 20px;
+    border-radius: 7.121px;
+    border: 0.89px solid rgba(0, 0, 0, 0.1);
+  }
+  .hiredude-faq-question {
+    font-size: 14px;
+  }
+  .hiredude-faq-answer {
+    font-size: 14px;
+  }
+  .hiredude-faq-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+@media (width< 580px) {
+  .hiredude-faq-main {
+    padding-top: 24px;
+  }
+  .hiredude-faq-icon {
+    width: 16px;
+    height: 16px;
+  }
+}

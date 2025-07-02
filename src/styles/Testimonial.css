@@ -1,0 +1,124 @@
+.hiredude-testimonial {
+  max-width: 1264px;
+  margin: 0 auto;
+  width: 100%;
+}
+.testimonial-swiper-wrapper {
+  position: relative;
+  width: calc(100% - 124px);
+  margin: 0 auto;
+}
+
+.hiredude-testimonial-prev-arrow,
+.hiredude-testimonial-next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+}
+
+.hiredude-testimonial-prev-arrow {
+  left: -24px; /* Adjust as needed */
+  transform: translateX(-100%);
+}
+
+.hiredude-testimonial-next-arrow {
+  right: -24px; /* Adjust as needed */
+  transform: translateX(100%);
+}
+.hiredude-testimonial-cards.hiredude-testimonial-cards {
+  padding-top: 49px;
+  height: 100%;
+  display: grid;
+}
+.hiredude-tc-slide.hiredude-tc-slide {
+  height: 100%;
+}
+.hiredude-tc-card {
+  padding: 20px 15px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 44px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 2px 2px 40px 0px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  height: 100%;
+}
+.hiredude-tcc-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.hiredude-tcc-top-para {
+  color: #4d4d4d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 24px */
+  max-width: 282px;
+}
+.hiredude-tccb-name {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+.hiredude-tccb-designation {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  opacity: 0.6;
+}
+
+@media (width<780px) {
+  .hiredude-testimonial-cards.hiredude-testimonial-cards {
+    padding-top: 36px;
+  }
+  div.hiredude-testimonial-prev-arrow,
+  div.hiredude-testimonial-next-arrow {
+    display: none;
+  }
+  .testimonial-swiper-wrapper {
+    width: 100%;
+  }
+  .hiredude-tcc-top-para {
+    font-size: 14px;
+  }
+  .hiredude-tccb-name {
+    font-size: 14px;
+  }
+  .hiredude-tccb-designation {
+    font-size: 12px;
+  }
+  .hiredude-tc-card {
+    gap: 32px;
+    padding: 10px 15px;
+  }
+}
+@media (width<580px) {
+  .hiredude-testimonial-cards.hiredude-testimonial-cards {
+    padding-top: 24px;
+  }
+  .hiredude-tcc-top-para {
+    font-size: 12px;
+  }
+  .hiredude-tccb-name {
+    font-size: 12px;
+  }
+  .hiredude-tccb-designation {
+    font-size: 11px;
+  }
+}

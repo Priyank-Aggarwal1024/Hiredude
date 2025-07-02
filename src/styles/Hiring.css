@@ -1,0 +1,94 @@
+.hiredude-hiring {
+  padding: 29px;
+  width: 100%;
+}
+.hiring-main {
+  border-radius: 21px;
+  background: #350b35;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 32px 68px;
+}
+.hiredude-hiring-text {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 22.335px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 136%; /* 30.375px */
+  max-width: 574px;
+  width: 100%;
+  padding-top: 11px;
+  padding-bottom: 27px;
+}
+.hiredude-hiring-cta {
+  color: #550755;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.4;
+  display: flex;
+  width: 217px;
+  height: 60px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 8.925px 35.699px 0px rgba(86, 88, 85, 0.26);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+@media (width< 768px) {
+  .hiring-main {
+    padding: 48px 16px;
+  }
+  .hiredude-hiring-text {
+    font-size: 18px;
+    padding-top: 18px;
+    padding-bottom: 35px;
+  }
+  .hiredude-hiring-cta {
+    border-radius: 7.127px;
+
+    width: 160px;
+    height: 45px;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+@media (width< 568px) {
+  .hiredude-hiring {
+    padding: 20px 0;
+  }
+  .hiring-main {
+    padding: 48px 16px;
+  }
+  .hiredude-hiring-text {
+    font-size: 14px;
+  }
+  .hiredude-hiring-cta {
+    width: 130px;
+    height: 35px;
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+@media (width< 460px) {
+  .hiredude-hiring-text {
+    max-width: 232px;
+  }
+  .hiredude-hiring-heading {
+    max-width: 240px;
+  }
+  .hiring-main {
+    border-radius: 16px;
+  }
+}

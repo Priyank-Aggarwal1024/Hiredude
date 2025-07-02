@@ -1,0 +1,57 @@
+.hiredude-previous-arrow {
+  display: flex;
+  padding: 7px 7px 6px 6px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 39px;
+  border: 1px solid var(--secondary-bt, #4d4d4d);
+  background: rgba(255, 255, 255, 0);
+}
+
+.hiredude-previous-arrow > svg {
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+}
+
+.hiredude-next-arrow {
+  display: flex;
+  padding: 7px 7px 6px 6px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 15px;
+  border: 1.053px solid var(--grey, #5d6165);
+  background: rgba(255, 255, 255, 0);
+}
+
+.hiredude-next-arrow:hover > svg > path,
+.hiredude-previous-arrow:hover > svg > path {
+  stroke: white;
+}
+
+.hiredude-next-arrow:hover,
+.hiredude-previous-arrow:hover {
+  border-radius: 39px;
+  background: #8c008c;
+  border: none;
+}
+
+.hiredude-next-arrow > svg {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+@media (max-width: 1080px) {
+  .hiredude-next-arrow {
+    margin-left: 8px;
+  }
+
+  .hiredude-previous-arrow {
+    margin-right: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+}
